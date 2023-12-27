@@ -4,6 +4,8 @@ import HelpArea from './HelpArea';
 
 function MainContent() {
   const [helpVisible, setHelpVisible] = useState(false);
+  const merp = 'merp';
+  console.log(merp);
 
   function toggleHelp() {
     setHelpVisible((isVisible) => !isVisible);
